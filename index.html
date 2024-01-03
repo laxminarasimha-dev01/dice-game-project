@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<head>
+    <title>Dice-Roll</title>
+    <meta name="theme-color" content="#45474B">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="ourteam.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="web icon" href="imgs/dice.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap');
+
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            text-align: center;
+        }
+
+        /* Project banner */
+        .main {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px 80px 10px 80px;
+        }
+
+        .text1 {
+            font-size: 72px;
+            font-weight: 600;
+            font-family: 'Outfit', sans-serif;
+            color: rgb(136, 135, 135);
+            text-align: start;
+
+        }
+
+        .bg1 {
+            border-radius: 14px;
+        }
+
+        .dark-color {
+            font-size: 72px;
+            color: black;
+        }
+
+
+        /* Buttons  */
+
+        .buttons {
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .button1,
+        .button2 {
+            height: 50px;
+            width: 190px;
+            cursor: pointer;
+            border: 2px solid #252525;
+            border-radius: 30px;
+            color: #333;
+        }
+
+        .btn-txt1 {
+            font-weight: 800;
+            letter-spacing: 4px;
+        }
+
+        .btn-txt2 {
+            font-weight: 800;
+            letter-spacing: 4px;
+            color: #fff;
+        }
+
+
+        /* Features */
+
+        .f-t {
+            font-size: 42px;
+            font-weight: 400;
+            font-family: 'Outfit', sans-serif;
+            color: rgb(255, 208, 0);
+            align-content: center;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 10px 80px 10px 80px;
+        }
+
+        .features>img {
+            border-radius: 14px;
+        }
+
+        .sub-title {
+            font-size: 32px;
+            font-weight: 500;
+            font-family: 'Outfit', sans-serif;
+        }
+
+        .f1,
+        .f2>p {
+            font: 1em sans-serif;
+        }
+
+        .myteamstreangth {
+        font: 1.3em sans-serif;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    </style>
+</head>
+
+
+<body>
+
+    <!-- This code is only belongs to Header of the page-->
+    <header class="sticky">
+        <a class="logo" href="index.html"><img height="32px" src="imgs/site-logo.svg" alt="logo"></a>
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#">Our Team</a></li>
+            </ul>
+        </nav>
+        <a class="Play" href="./Game/index.html">Play Now</a>
+    </header>
+
+
+
+    <!-- This is the banner post for the dice game  -->
+    <div id="project" class="main">
+
+        <div class="text1">
+            <p>Chance for a <span class="dark-color">fun</span><br> and <span class="dark-color">entertaining
+                    gaming</span>
+                experience. <br>
+            </p>
+
+            <div class="buttons">
+
+                <div><button class="button1">
+                        <span class="btn-txt1">Info</span>
+                    </button>
+                </div>
+
+                <span style="width: 10px;"></span>
+
+                <div><button style="background-color: #163020" class="button2">
+                    <a style="text-decoration: none;" href="./Game/index.html">
+                        <span class="btn-txt2">Play Now</span>
+                        </a>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <img  class="bg1" height="300px" src="bg-img1.jpg" alt="This is the picture of the dicee">
+        </div>
+    </div>
+    <br>
+
+
+    <!-- This code is only belongs to features part -->
+    <span class="f-t">features</span> <br>
+
+    <div class="features">
+
+        <img src="banner-dice.jpg" width="700px" style="margin-right: 20px;" alt="">
+
+        <div class="f1">
+            <h4 class="sub-title">Real dice feel</h4>
+            <br>
+            <p>The game can have sound effects and animations to enhance the user experience <br> and simulate the feeling of rolling real dice game.</p>
+        </div>
+        <div class="f2">
+            <h4 class="sub-title">multiplayer mode      </h4>
+            <br>
+            <p>The game can have a multiplayer mode, where two <br> or more users can join and roll dice together.</p>
+        </div>
+
+    </div>
+
+
+    <!-- This code is only belongs to our team (Project team members) -->
+ 
+
+    <br>
+    <!-- <img src="our team.svg" height="200px" alt=""> -->
+    <span class="f-t" style="color: rgb(63, 43, 43);">Our Team</span> <br>
+    <p class="myteamstreangth">If everyone is moving forward together, then success takes care of itself.</p>
+
+    <section>
+        <div class="card-top">
+
+            <div class="card">
+                <img class="profileimg" loading="eager" src="/team/root@user1.jpg.png" alt="N Laxmi Narasimha">
+                <h2>N Laxmi Narasimha</h2>
+                <p> Hi there! I'm a passionate web
+                    developer with a keen interest in cybersecurity.</p>
+                </p>
+            </div>
+            
+            <div class="card">
+                <img class="profileimg"  src="/team/prathyush1.jpg" alt="Prathyush">
+                <h2>Prathyush</h2>
+                <p>Full stack web developer</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <img class="profileimg" src="/team/haleem.jpg" alt="Syed Abdul Haleem">
+            <h2>Syed Abdul Haleem</h2>
+            <p>I'm a web developer who loves to create beautiful and functional websites for people.</p>
+        </div>
+
+        <div class="card">
+            <img class="profileimg" src="/team/durga.png"alt="P.Durga Prasad">
+            <h2>P.Durga Prasad</h2>
+            <p>Full stack web developer</p>
+        </div>
+
+        <div class="card">
+            <img class="profileimg"  src="/team/akash.jpg"alt="Akash">
+            <h2>Akash Rajpoot</h2>
+            <p>Full stack web developer</p>
+        </div>
+
+        <div class="card">
+            <img class="profileimg" src="/team/raviteja.jpg" alt="E.Raviteja">
+            <h2>E.Raviteja</h2>
+            <p>Full stack web developer</p>
+        </div>
+
+    </section>
+
+
+
+
+    <!-- TODO : Add all team members profiles 
+
+
+    <!-This code is only belongs to footer of the page -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4><a href="#"><img height="30px" src="imgs/site-logo.svg" alt="logo"></a></h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                </div>
+                <div class="footer-col">
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <hr class="hr-1">
+        <br>
+        <p style="text-align: center;color: aliceblue;margin-top: 10px;font-family: sans-serif;">&copy; 2023 Dice-Roll.
+            All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
